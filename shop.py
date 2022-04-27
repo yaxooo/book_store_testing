@@ -81,16 +81,16 @@ else:
 # Shop: сортировка товаров
 driver.get("http://practice.automationtesting.in/")
 
-# # 2. Залогиньтесь
-# driver.implicitly_wait(5) # искать каждый элемент в течение 5 секунд
-# MyAccountMenu = driver.find_element_by_css_selector('[href="http://practice.automationtesting.in/my-account/"]')
-# MyAccountMenu.click()
-# Email = driver.find_element_by_id('username')
-# Email.send_keys("2002tester@mail.ru")
-# Password = driver.find_element_by_id('password')
-# Password.send_keys("PlayBoy11!!PlayBoy11!!")
-# login = driver.find_element_by_name('login')
-# login.click()
+# 2. Залогиньтесь
+driver.implicitly_wait(5) # искать каждый элемент в течение 5 секунд
+MyAccountMenu = driver.find_element_by_css_selector('[href="http://practice.automationtesting.in/my-account/"]')
+MyAccountMenu.click()
+Email = driver.find_element_by_id('username')
+Email.send_keys("2002tester@mail.ru")
+Password = driver.find_element_by_id('password')
+Password.send_keys("PlayBoy11!!PlayBoy11!!")
+login = driver.find_element_by_name('login')
+login.click()
 
 # 3. Нажмите на вкладку "Shop"
 Shop = driver.find_element_by_id('menu-item-40')
@@ -126,16 +126,16 @@ else:
 # Shop: отображение, скидка товара    СЛАЙД 100
 driver.get("http://practice.automationtesting.in/")
 
-# # 2. Залогиньтесь
-# driver.implicitly_wait(5) # искать каждый элемент в течение 5 секунд
-# MyAccountMenu = driver.find_element_by_css_selector('[href="http://practice.automationtesting.in/my-account/"]')
-# MyAccountMenu.click()
-# Email = driver.find_element_by_id('username')
-# Email.send_keys("2002tester@mail.ru")
-# Password = driver.find_element_by_id('password')
-# Password.send_keys("PlayBoy11!!PlayBoy11!!")
-# login = driver.find_element_by_name('login')
-# login.click()
+# 2. Залогиньтесь
+driver.implicitly_wait(5) # искать каждый элемент в течение 5 секунд
+MyAccountMenu = driver.find_element_by_css_selector('[href="http://practice.automationtesting.in/my-account/"]')
+MyAccountMenu.click()
+Email = driver.find_element_by_id('username')
+Email.send_keys("2002tester@mail.ru")
+Password = driver.find_element_by_id('password')
+Password.send_keys("PlayBoy11!!PlayBoy11!!")
+login = driver.find_element_by_name('login')
+login.click()
 
 # 3. Нажмите на вкладку "Shop"
 Shop = driver.find_element_by_id('menu-item-40')
